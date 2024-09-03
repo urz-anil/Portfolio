@@ -1,0 +1,350 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* About Section */
+#about {
+    padding: 100px 0;
+    background-color: #007BFF;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Ensure responsiveness on smaller screens */
+}
+
+#about .intro {
+    flex: 1;
+    max-width: 50%; /* Ensure it takes up half of the screen */
+    padding: 20px;
+}
+
+#about .intro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about .intro p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#about .cta-buttons .btn {
+    background-color: #fff;
+    color: #007BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#about .social-icons img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+#about .image {
+    flex: 1;
+    max-width: 50%; /* Ensure it takes up half of the screen */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#about .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /* Maintain the image's aspect ratio */
+}
+
+/* Skills Section */
+#skills {
+    padding: 80px 0;
+    background-color: #f4f4f4;
+}
+
+#skills h2, #skills p {
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#skills p {
+    font-size: 18px;
+    color: #666;
+}
+
+#skills .skills-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#skills .skills-icons img {
+    width: 100px;
+    margin: 0 10px;
+}
+
+#skills ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#skills ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#skills .proficiency {
+    margin-top: 50px;
+}
+
+#skills .progress {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#skills .progress p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#skills .progress-bar {
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 5px;
+}
+
+#skills .progress-bar span {
+    display: block;
+    height: 100%;
+    background-color: #007BFF;
+    border-radius: 5px;
+}
+
+/* Achievements Section */
+#achievements {
+    padding: 80px 0;
+}
+
+#achievements h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+#achievements .achievements-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+#achievements .achievement {
+    max-width: 300px;
+    text-align: center;
+}
+
+#achievements .achievement h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#achievements .achievement p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Blogs Section */
+#blogs {
+    padding: 80px 0;
+    background-color: #f4f4f4;
+}
+
+#blogs h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+#blogs .blogs-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+#blogs .blog-post {
+    max-width: 300px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#blogs .blog-post h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Talks Section */
+#talks {
+    padding: 80px 0;
+}
+
+#talks h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+#talks .talk {
+    text-align: center;
+}
+
+#talks .talk h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#talks .talk p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Projects Section */
+#projects {
+    padding: 80px 0;
+    background-color: #f4f4f4;
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+#projects .projects-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#projects .project {
+    max-width: 300px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#projects .project h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Big Projects Section */
+#big-projects {
+    padding: 80px 0;
+}
+
+#big-projects h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+#big-projects .companies {
+    display: flex;
+    justify-content: center;
+}
+
+#big-projects .companies img {
+    margin: 0 20px;
+    width: 150px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 80px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#contact .location {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#contact .social-icons img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+/* Footer */
+footer {
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
